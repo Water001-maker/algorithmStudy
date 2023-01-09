@@ -54,6 +54,7 @@ public class ReverseNodesInKGroup {
         return start;
     }
 
+    //反转
     public static void reverse(ListNode start, ListNode end) {
         end = end.next;
         ListNode pre = null;

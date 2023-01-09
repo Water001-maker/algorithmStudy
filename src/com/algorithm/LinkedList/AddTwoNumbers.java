@@ -12,6 +12,8 @@ import java.util.List;
  * 例子  4->3->6  2->5->3
  * 返回  6->8->9
  * 解释  634+352=986
+ *
+ * https://leetcode.com/problems/add-two-numbers/
  */
 public class AddTwoNumbers {
 

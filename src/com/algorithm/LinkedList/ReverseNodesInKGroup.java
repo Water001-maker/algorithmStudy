@@ -10,6 +10,8 @@ package com.algorithm.LinkedList;
  * 例子:
  * 调整前: 1->2->3->4->5->6->7->8，k=3
  * 调整后: 3->2->1->6->5->4->7->8
+ *
+ * https://leetcode.com/problems/reverse-nodes-in-k-group/
  */
 public class ReverseNodesInKGroup {
 

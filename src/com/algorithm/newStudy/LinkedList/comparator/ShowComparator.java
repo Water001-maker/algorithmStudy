@@ -1,4 +1,4 @@
-package com.algorithm.newStudy.Tree;
+package com.algorithm.newStudy.LinkedList.comparator;
 
 import java.util.ArrayList;
 import java.util.Arrays;

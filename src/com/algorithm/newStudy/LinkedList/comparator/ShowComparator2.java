@@ -1,4 +1,4 @@
-package com.algorithm.newStudy.Tree;
+package com.algorithm.newStudy.LinkedList.comparator;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -58,7 +58,7 @@ public class ShowComparator2 {
 		String str1 = "abc";
 		String str2 = "b";
 		System.out.println(str1.compareTo(str2));
-		
+
 		PriorityQueue<Student> heap = new PriorityQueue<>(new IdComparator());//小跟堆，优先级队列
 		Student s1 = new Student("张三", 5, 27);
 		Student s2 = new Student("李四", 1, 17);

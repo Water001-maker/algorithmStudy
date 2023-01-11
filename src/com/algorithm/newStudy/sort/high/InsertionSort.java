@@ -5,6 +5,7 @@ package com.algorithm.newStudy.sort.high;
  * @date 2023/1/11 12:42
  * 插入排序
  * 将第i个数，依次和i之前的数进行比较，若小于则将此数前移
+ * 拓展学习——Arrays.sort():双插
  */
 public class InsertionSort {
 

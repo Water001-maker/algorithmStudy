@@ -8,7 +8,7 @@ public class HeapSort {
     public static void main(String[] args) {
         //对该数组进行升序排列
         //int[] arr = {4, 6, 8, 5, 9,0,-1,22,-88};
-        //heapSort(arr);
+        //HeapSort(arr);
         //测试堆排序的速度   随机给80000个数  ---
         int[] arr = new int[800000];
         for (int i = 0; i < 800000; i++) {

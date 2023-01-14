@@ -68,8 +68,13 @@ public class OddTimesNum {
         }
         int res = 0;
         for (int i = 0; i < 31; i++) {
-            if (bytes[i] / m != 0) {
+            if (bytes[i] % m == 0) {
+                continue;
+            }
+            if (bytes[i] % m == k) {
                 res |= (1 << i);//将1或到res中
+            } else {
+                return -1;
             }
         }
         return res;

@@ -77,6 +77,13 @@ public class OddTimesNum {
                 return -1;
             }
         }
+        if (res == 0) {//边界处理
+            int count = 0;
+            for (int num : arr) {
+                if (num == 0) count++;
+            }
+            if (count != k) return -1;
+        }
         return res;
     }
 }
